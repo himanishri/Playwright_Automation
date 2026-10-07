@@ -1,0 +1,24 @@
+{
+  "name": "playwright_automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/himanishri/Playwright_Automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/himanishri/Playwright_Automation/issues"
+  },
+  "homepage": "https://github.com/himanishri/Playwright_Automation#readme",
+  "description": "",
+  "devDependencies": {
+    "@types/jquery": "^4.0.1",
+    "typescript": "^7.0.2"
+  }
+}
