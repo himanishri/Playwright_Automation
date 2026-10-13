@@ -37,32 +37,32 @@ function greetmessage(name: string = "Guest"): void {
 greetmessage(); // Output: Hello, Guest!
 greetmessage("Alice"); // Output: Hello, Alice!
 
-function calculate(a: number, b: number): [number,number] {
+function calculateSumandProduct(a: number, b: number): [number,number] {
     const sum = a + b;
     const product = a * b;
     return [sum, product];
 }
 
-const [sum, product] = calculate(5, 10);
+const [sum, product] = calculateSumandProduct(5, 10);
 console.log(`Sum: ${sum}, Product: ${product}`); // Output: Sum: 15, Product: 50
 
-const calculateArrow = function(a: number, b: number): number {
+const calculateSum = function(a: number, b: number): number {
     return a + b;
 }
 
 
-console.log(calculateArrow(5, 10)); // Output: 15
-console.log(calculateArrow(3.5, 2.5)); // Output: 6
+console.log(calculateSum(5, 10)); // Output: 15
+console.log(calculateSum(3.5, 2.5)); // Output: 6
 
-const multiplyArrow = (a: number, b: number): number => {
+const multiply = (a: number, b: number): number => {
     return a * b;
 };           //arrow function with block body
 
-console.log(multiplyArrow(4, 5)); // Output: 20
+console.log(multiply(4, 5)); // Output: 20
 
-const multiplyArrowShort = (a: number, b: number): number => a * b; //arrow function with concise body
+const multiplyArrowFunc = (a: number, b: number): number => a * b; //arrow function with concise body
 
-console.log(multiplyArrowShort(4, 5)); // Output: 20
+console.log(multiplyArrowFunc(4, 5)); // Output: 20
 
 function demo(){
     const value = 10;
